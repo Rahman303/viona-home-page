@@ -1,0 +1,868 @@
+body{
+   padding: 0;
+   margin: 0;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=La+Belle+Aurore&display=swap');
+
+
+.container{
+   padding: 10px;
+}
+.line{
+   border-left: #D9D9D9;
+   height: 50px;
+   position: absolute;
+   right: 5%;
+   margin-left: 3px;
+   top: 20px;
+}
+.navbar-top{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid #E8E8E8;
+   padding-bottom: 15px;
+}
+.navbar-top-right{
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+}
+.navbar-top-languages a{
+   text-decoration: none;
+   color: #000000;
+}
+.navbar-top-languages a:hover{
+   color: #5AA058;
+   text-decoration: underline;
+}
+/* *************************************************** */
+.d-flex{
+   width: 100%;
+   position: relative;
+}
+.navbar-nav{
+   gap: 30px;
+   text-align: center;
+}
+.btn{
+   border: none;
+   position: absolute;
+   right: 1%;
+} 
+.form-control-input{
+   background-color: #EDEDED;
+   width: 100%;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+}
+.form-control-input:hover{
+   transition: 0.2s;
+}
+.form-control-input:focus{
+   border-color: inherit;
+   color: #495057;
+   background-color: #ededed44;    
+   box-shadow: 1px 0px 10px 2px rgb(222 211 211 / 56%);
+   transition: 0.2s;
+   outline:0;
+}
+.navbar-toggler:focus{
+   outline: 0;
+   border: none;
+   color: #00000000;
+}
+
+
+/* ******************************************************* */
+
+.mebel{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding-top: 10px;
+}
+#mebel{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   color: #000000;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+#mebel:hover{
+   text-decoration: none;
+}
+
+.vl {
+   border-left: 2px solid #D9D9D9;
+   height: 35px;
+ }
+/* *********************************************************************** */
+ .endirim{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   padding-top: 10px;
+   /* outline: 1px solid red; */
+   width: 100%;
+ }
+ .endirim-left{
+   background-image: url(./images/endirim/endirim.svg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 60%;
+ }
+ .endirim-right-carousel{
+   width: 50%;
+ }
+ .endirim-img{
+   width: 100%;
+ }
+ .endirim-right{
+   background-color: #ECECEC;
+   padding: 30px;
+ }
+.info-left-endirim{
+   display: flex;
+   justify-content: space-between;
+}
+.fürsət-btn-endirim{
+   font-size: 1.3vw;
+   width: 100%;
+   height: 45px;
+   padding: 13px;
+   background: linear-gradient(180deg, #00477F 0%, #5AA058 100%);
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+   border: none;
+   align-items: center;
+}
+.fürsət-btn-endirim img{
+   width: 15%;
+}
+.kompaniya-time-endirim{
+   display: flex;
+   justify-content: space-between;
+   justify-content: flex-start;
+   gap: 20px;
+   width: 100%;
+   padding-top: 30px;
+}
+.time-endirim{
+   height: 65px;
+   width: 50px;
+   background-color: #EDEDED;
+   font-size: 30px;
+   border: 1px solid #00477F;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.countdown-endirim{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   /* line-height: 41px; */
+   color: #000000;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+#time-count-endirim{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 0px;
+   color: #000000;
+   /* padding-bottom: 15px; */
+}
+.kompaniya-button-endirim{
+   align-items: center;
+   gap: 15px;
+   align-content: flex-end;
+   display: flex;
+   padding-top: 23px;
+   width: 100%;
+}
+.endirim-left-info{
+   gap: 10px;
+   display: flex;
+   flex-direction: column;
+}
+.endirim-bottom{
+   width: 100%;
+}
+.endirim-bottom img{
+   width: 100%;
+}
+#product-id{
+   color: #6C6C6C;
+}
+
+/* **************************************************************** */
+
+
+ .swiper {
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+ }
+
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+   height: 400px;
+   /* width: 100%; */
+
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+ }
+
+ .image-card img {
+   display: block;
+   width: 100%;
+   /* max-width: 80%; */
+   height: 100%;
+   /* object-fit: cover; */
+ }
+ .image-card{
+   width: 100%;
+   height: 200px;
+ }
+ /* .swiper-image{
+   display: block;
+   width: 100%;
+   max-width: 80%;
+   height: 100%;
+   object-fit: cover;
+   justify-content: center;
+   align-items: center;
+ } */
+ .fa-solid{
+   padding: 5px;
+ }
+ .card:hover{
+   box-shadow: 1px 0px 10px 2px rgb(222 211 211 / 56%);
+   transition: 0.3s;
+}
+.hl{
+   width: 20%;
+   height: 5px;
+   background-color: #5AA058;
+}
+.card{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 30px;
+   cursor: pointer;
+   transition: 0.3s;
+   margin-top: auto;
+   gap: 5px;
+   border: none;
+   position: relative;
+}
+.swiper-pagination{
+   bottom: 0%;
+   position: absolute;
+}
+.swiper-navbtn{
+   color: #6E93f7;
+   transition: color 0.3s ease;
+}
+.swiper-navbtn:hover{
+   color: #4070F4;
+}
+.swiper-navbtn::before,
+.swiper-navbtn::after{
+   font-size: 40px;
+}
+.swiper-button-next{
+   right: 0;
+}
+.swiper-button-prev{
+   left: 0;
+}
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+   bottom: 0px;
+}
+.card span{
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 18px;
+   color: #6C6C6C;
+}
+.currency{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+}
+.pre-amount{
+   font-size: 14px;
+   line-height: 21px;
+   text-decoration-line: line-through;
+   color: #00477F;
+}
+.current-amount{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #AF1111;
+}
+.card :nth-child(5){
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn-basket{
+   width: 100%;
+   background-color: #00477F;
+   border: none;
+   border-radius: 10px;
+   font-size: 16px;
+   color: white;
+   padding: 25px;
+   height: 50px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity 0.5s ease;
+}
+.card:hover .btn-basket{
+   visibility: visible;
+   opacity: 1;
+}
+.card:hover .heart{
+   visibility: visible;
+   opacity: 1;
+}
+.all-card{
+   gap: 20px;
+}
+.btn-basket img{
+   width: 30px;
+   height: 25px;
+}
+.heart{
+   height: 35px;
+   width: 100%;
+   position: absolute;
+   top: 2%;
+   left: 40%;
+   transition: 0.3s;
+   cursor: pointer;
+   visibility: hidden;
+   opacity: 0;
+}
+.heart:hover, .btn-basket:hover{
+   transition: 0.3s;
+   transform: scale(1.03);
+}
+
+
+/* ************************************ */
+
+
+
+/* ************************************ */
+.mebeller{
+   padding: 40px 0 40px 0px;;
+}
+.mebel-div{
+   flex-direction: column;
+   margin-bottom: 0px;
+}
+#mebel-btn{
+   background-color: #00477F;
+   border: none;
+   border-radius: 10px;
+   font-size: 16px;
+   color: white;
+   padding: 25px;
+   height: 50px;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   transition: 0.3s;
+   cursor: pointer;
+}
+#mebel-btn:hover, #btn-mebel:hover{
+   transition: 0.3s;
+   transform: scale(1.03);
+}
+#btn-mebel{
+   background-color: #5AA058;
+   border: none;
+   border-radius: 10px;
+   font-size: 16px;
+   color: white;
+   padding: 25px;
+   height: 50px;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   transition: 0.3s;
+   cursor: pointer;
+}
+/* ******************************* */
+
+
+.kompaniya{
+   height: 600px;
+   display: flex;
+   justify-content: space-between;
+   padding: 50px; 
+   width: 100%;
+   position: relative;
+   background-color: #ECECEC;
+}
+.sale-left{
+   gap: 30px;
+   display: flex;
+   flex-direction: column;
+   top: 16%;
+   /* position: absolute; */
+}
+.sale-right{
+   display: flex;
+   /* position: absolute; */
+   /* right: 5%; */
+}
+.chair-image{
+   width: 100%;
+}
+#time-count{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 27px;
+   color: #000000;
+   padding-bottom: 10px;
+}
+.chair-name{
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 36px;
+   color: #000000;
+}
+.kompaniya-price, .kompaniya-time, .kompaniya-button{
+   display: flex;
+}
+.fürsət-btn{
+   width: 50%;
+   height: 45px;
+   padding: 13px;
+   background: linear-gradient(180deg, #00477F 0%, #5AA058 100%);
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+   border: none;
+   align-items: center;
+}
+.kompaniya-price{
+   gap: 7px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.komp-pre-price{
+   text-decoration: line-through;
+   color: #00477F;
+   font-size: 20px;
+}
+.kompaniya-post-price{
+   color: #AF1111;
+   font-size: 27px;
+}
+.kompaniya-time{
+   display: flex;
+   justify-content: space-between;
+   justify-content: flex-start;
+   gap: 20px;
+   width: 100%;
+}
+.time{
+   height: 90px;
+   width: 100px;
+   background-color: #EDEDED;
+   font-size: 30px;
+   border: 1px solid #00477F;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.kompaniya-button{
+   justify-content:flex-start;
+   align-items: center;
+   gap: 20px;
+   align-content: flex-end;
+}
+.carousel-control-next-icon{
+   background-color: #00477F;
+   border-radius: 50%;
+}
+/* .visually-hidden{
+   width: 10px;
+   height: 10px;
+} */
+.btn-fürsət{
+   width: 50%;
+   background: #00477F;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+   border: none;
+   height: 50px;
+   align-items: center;
+}
+.countdown{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 41px;
+   color: #000000;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.link-more{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   text-decoration-line: underline;
+   color: #000000;
+}
+/* *************************************************** */
+.info{
+   display: flex;
+   justify-content: space-between;
+}
+.info-left{
+   width: 70%;
+}
+.info-img-left{
+   width: 100%;
+}
+.info-right{
+   flex-direction: column;
+   display: flex;
+   padding: 25px;
+   gap: 30px;
+   width: 100%;
+   justify-content: center;
+}
+.info-btn{
+   width: 220px;
+   height: 62px;
+   border: 2px solid #00477F;
+   border-radius: 10px;
+   background-color: white;
+}
+.more-info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-items: center;
+   text-align: center;
+}
+.p-info{
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 26px;
+   color: #000000;
+}
+.info-price{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #1E1E1E;
+}
+/* ************************************************** */
+
+.team{
+   background-image: url(./images/team/team.svg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 50vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   padding-top: 10px;
+}
+.team-number{
+   flex-direction: column;
+   width: 100%;
+}
+.team-numbers{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 3vw;
+   line-height: 68px;
+   color: #FFFFFF;
+}
+.team-name{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2vw;
+   line-height: 36px;
+   color: #FFFFFF;
+}
+/* ************************************ */
+
+.footer{
+   background-color: #00477F;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   align-items: center;
+   gap: 3%;
+   height: 300px;
+}
+.footer-logo img{
+   width: 100%;
+}
+.footer-left, .footer-middle, .footer-right{
+   flex-direction: column;
+   gap: 15px;
+   display: flex;
+}
+.footer-info{
+   display: flex;
+   justify-content: space-between;
+   gap: 5%;
+}
+.footer-a{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;
+   text-decoration: none;
+   transition: 0.3s;
+}
+.footer-a:hover{
+   transition: 0.3s;
+   transform: scale(1.05);
+   text-decoration: none;
+   color: white;
+}
+.footer-call:hover{
+   color: white;
+}
+a:hover{
+   text-decoration: none;
+}
+.footer-hl{
+   width: 100%;
+   height: 5px;
+   background-color: #ffffff;
+}
+.footer-call{
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 30px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+@media (max-width:485px){
+   .kompaniya-button-endirim{
+      flex-direction: column;
+      display: flex;
+      align-items: flex-start;
+   }
+   .link-more{
+      font-size: 12px;
+   }
+}
+@media (max-width:490px) {
+   .time-endirim{
+      width: calc(65% - 30px);
+      height: 11vmin;
+      position: relative;
+      left: 20%;
+      bottom: 10px;
+   }
+   .kompaniya-time-endirim{
+      flex-wrap: wrap;
+      width: 30vw;
+      gap: 5px;
+      position: relative;
+      right: 20%;
+   }
+   .countdown-endirim{
+      font-size: 3vw;
+   }
+   #time-count-endirim{
+      font-size: 2vw;
+   }
+   .btn-fürsət{
+      font-size: 2vw;
+      width: 100%;
+   }
+   .link-more{
+      font-size: 12px;
+      width: 57%;
+   }
+}
+@media screen and (max-width:500px){
+   .btn-info{
+      display: flex;
+      justify-content: center;
+   }
+   .more-info{
+      flex-direction: column;
+      gap: 10px;
+   }
+   .viona-logo{
+      width: 80%;
+   }
+   .kompaniya-time-endirim{
+      gap: 14px;
+   }
+}
+@media screen and (max-width:768px) {
+   .endirim{
+      flex-direction: column;
+   }
+   .endirim-left{
+      width: 100%;
+      height: 75vh;
+   }
+   .endirim-right-carousel{
+      width: 100%;
+   }
+   .info{
+      flex-direction: column;
+   }
+   .footer{
+      flex-direction: column;
+      padding: 10px;
+   }
+   .kompaniya{
+      flex-direction: column;
+   }
+   .navbar-toggler-icon{
+      display: flex;
+   }
+   .btn{
+      display: none;
+   }
+   .kompaniya{
+      background-image: url(./images/fürsət/chair.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 100%;
+      border: 10px solid #ECECEC;
+   }
+   .chair-image{
+      display: none;
+   }
+   .time{
+      background: none;
+   }
+   .kompaniya-price{
+      background-color: #D9D9D9;
+      opacity: 50%;
+      width: 45%;
+   }
+   .info-left{
+      width: 100%;
+   }
+   .fürsət-btn-endirim{
+      font-size: 16px;
+   }
+}
+@media (min-width:992px){
+   .navbar-right-bottom{
+      display: none;
+   }
+}
+@media (max-width:992px){
+   .mebel{
+      display: none;
+   }
+   .navbar-nav{
+      gap: 5px;
+   }
+   .navbar-right{
+      display: flex;
+      justify-content: space-around;
+   }
+   .navbar-right-bottom{
+      gap: 4px;
+      text-align: center;
+      display: flex;
+      align-items: baseline;
+      align-content: center;
+      flex-direction: column;
+   }
+   .mebel-section{
+      gap: 20px;
+      display: flex;
+      padding-top: 20px;
+   }
+}
+@media (min-width:768px) and (max-width:992px) {
+   .time-endirim{
+      width: calc(65% - 40px);
+      height: 12vmin;
+   }
+   .kompaniya-time-endirim{
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 5px;
+      position: relative;
+      left: 25%;
+   }
+   .kompaniya-button-endirim{
+      display: flex;
+   }
+   .fürsət-btn-endirim {
+      width: 162%;
+      font-size: 16px;
+   }
+   .endirim-left-info{
+      gap: 5px;
+      position: relative;
+      bottom: 25px;
+   }
+   .kompaniya-button-endirim{
+      position: relative;
+      right: 55%;
+      top: -11px;
+      width: 150%;
+   }
+}

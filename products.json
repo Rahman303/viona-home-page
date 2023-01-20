@@ -1,0 +1,38 @@
+[
+   {
+      "title": "Divan",
+      "id": "v2ghjkl345",
+      "previous-price": "3.700",
+      "current-price": "2.990",
+      "image": "./images/swiper-img/kreslo-2.png"
+   },
+   {
+      "title": "Stol",
+      "id": "v2ghjkl345",
+      "previous-price": 900,
+      "current-price": 790,
+      "image": "./images/swiper-img/stol.png"
+   },
+   {
+      "title": "Kreslo",
+      "id": "v2ghjkl345",
+      "previous-price": 100,
+      "current-price": 1.190,
+      "image": "../images/swiper-img/divan.png"
+   },
+   {
+      "title": "Kreslo",
+      "id": "v2ghjkl345",
+      "previous-price": 1400,
+      "current-price": 1.190,
+      "image": "../images/swiper-img/kreslo.png"
+   },
+   {
+      "title": "Kreslo",
+      "id": "v2ghjkl345",
+      "previous-price": 1400,
+      "current-price": 1.190,
+      "image": "../images/swiper-img/kreslo.png"
+   }
+   
+]
