@@ -696,6 +696,15 @@ a:hover{
    color: #FFFFFF;
    text-decoration: none;
 }
+@media (max-width:420px){
+   .footer-a, .footer-call{
+      font-size: 10px;
+   }
+   .footer-icons{
+      width: 82px;
+      height: 1;
+   }
+}
 @media (max-width:485px){
    .kompaniya-button-endirim{
       flex-direction: column;
